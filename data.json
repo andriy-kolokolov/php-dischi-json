@@ -1,0 +1,38 @@
+[
+  {
+    "img": "./img/new_jersey.png",
+    "title": "New Jersey",
+    "artist": "Bon Jovi",
+    "year": "1988"
+  },
+  {
+    "img": "./img/live_wembley.png",
+    "title": "Live At Wembley 86",
+    "artist": "Queen",
+    "year": "1992"
+  },
+  {
+    "img": "./img/sting.png",
+    "title": "Tens Summoners Tales",
+    "artist": "Sting",
+    "year": "1993"
+  },
+  {
+    "img": "./img/steve.png",
+    "title": "Steve Gadd band",
+    "artist": "Steve Gadd band",
+    "year": "2018"
+  },
+  {
+    "img": "./img/iron_maden.png",
+    "title": "Brave new World",
+    "artist": "Iron Maiden",
+    "year": "2000"
+  },
+  {
+    "img": "./img/eric_clapton.png",
+    "title": "One more car, one more rider",
+    "artist": "Eric Clapton",
+    "year": "2002"
+  }
+]
