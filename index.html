@@ -11,25 +11,27 @@
 <body>
 
 	<div id="app">
-		<div class="cards-container">
-			<div
-					class="cards"
-					v-for="(music, index) in this.arrMusic"
-					:key="index"
-					@click="showInfo(index)"
-			>
-				<img :src="music.img" :alt="music.title" class="mb-3" />
-				<h4>{{ music.title }}</h4>
-				<p>{{ music.artist }}</p>
+		<div class="container">
+			<div class="cards-wrapper mt-5 row row-cols-3 text-center">
+				<div
+						class="cards col"
+						v-for="(music, index) in this.arrMusic"
+						:key="index"
+						@click="showInfo(index)"
+				>
+					<img :src="music.img" :alt="music.title" class="img-fluid" />
+					<h4>{{ music.title }}</h4>
+					<p>{{ music.artist }}</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="info-wrapper" v-if="this.showDisc" @click="this.hideInfo()">
-			<div class="info">
-				<img :src="showDisc.img" :alt="showDisc.title" />
-				<h4>{{ showDisc.title }}</h4>
-				<p>{{ showDisc.artist }}</p>
-				<h6>{{ showDisc.year }}</h6>
+			<div class="info-wrapper" v-if="this.showDisc" @click="this.hideInfo()">
+				<div class="info text-center">
+					<img :src="showDisc.img" :alt="showDisc.title" />
+					<h4>{{ showDisc.title }}</h4>
+					<p>{{ showDisc.artist }}</p>
+					<h6>{{ showDisc.year }}</h6>
+				</div>
 			</div>
 		</div>
 	</div>
